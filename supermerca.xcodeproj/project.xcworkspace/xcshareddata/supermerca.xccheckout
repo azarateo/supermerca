@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>04D11CAA-C370-4E02-888B-36BB2D92021A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>supermerca</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9C960304-ECAD-4850-9FCC-34011D83ADCA</key>
+		<string>https://github.com/azarateo/supermerca.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>supermerca.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9C960304-ECAD-4850-9FCC-34011D83ADCA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/azarateo/supermerca.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9C960304-ECAD-4850-9FCC-34011D83ADCA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9C960304-ECAD-4850-9FCC-34011D83ADCA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>supermerca</string>
+		</dict>
+	</array>
+</dict>
+</plist>
