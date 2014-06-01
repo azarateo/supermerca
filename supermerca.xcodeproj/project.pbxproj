@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC7FD058193B6048009902CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FD057193B6048009902CA /* Foundation.framework */; };
+		FC7FD05A193B6048009902CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FD059193B6048009902CA /* CoreGraphics.framework */; };
+		FC7FD05C193B6048009902CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FD05B193B6048009902CA /* UIKit.framework */; };
+		FC7FD062193B6048009902CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD060193B6048009902CA /* InfoPlist.strings */; };
+		FC7FD064193B6048009902CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7FD063193B6048009902CA /* main.m */; };
+		FC7FD068193B6048009902CA /* supermercacomAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7FD067193B6048009902CA /* supermercacomAppDelegate.m */; };
+		FC7FD06B193B6048009902CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD069193B6048009902CA /* Main.storyboard */; };
+		FC7FD06E193B6048009902CA /* supermercacomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7FD06D193B6048009902CA /* supermercacomViewController.m */; };
+		FC7FD070193B6048009902CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD06F193B6048009902CA /* Images.xcassets */; };
+		FC7FD077193B6048009902CA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FD076193B6048009902CA /* XCTest.framework */; };
+		FC7FD078193B6048009902CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FD057193B6048009902CA /* Foundation.framework */; };
+		FC7FD079193B6048009902CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FD05B193B6048009902CA /* UIKit.framework */; };
+		FC7FD081193B6048009902CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD07F193B6048009902CA /* InfoPlist.strings */; };
+		FC7FD083193B6048009902CA /* supermercaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7FD082193B6048009902CA /* supermercaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC7FD07A193B6048009902CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7FD04C193B6048009902CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC7FD053193B6048009902CA;
+			remoteInfo = supermerca;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC7FD054193B6048009902CA /* supermerca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = supermerca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7FD057193B6048009902CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC7FD059193B6048009902CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC7FD05B193B6048009902CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC7FD05F193B6048009902CA /* supermerca-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "supermerca-Info.plist"; sourceTree = "<group>"; };
+		FC7FD061193B6048009902CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC7FD063193B6048009902CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC7FD065193B6048009902CA /* supermerca-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "supermerca-Prefix.pch"; sourceTree = "<group>"; };
+		FC7FD066193B6048009902CA /* supermercacomAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = supermercacomAppDelegate.h; sourceTree = "<group>"; };
+		FC7FD067193B6048009902CA /* supermercacomAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = supermercacomAppDelegate.m; sourceTree = "<group>"; };
+		FC7FD06A193B6048009902CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC7FD06C193B6048009902CA /* supermercacomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = supermercacomViewController.h; sourceTree = "<group>"; };
+		FC7FD06D193B6048009902CA /* supermercacomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = supermercacomViewController.m; sourceTree = "<group>"; };
+		FC7FD06F193B6048009902CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC7FD075193B6048009902CA /* supermercaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = supermercaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7FD076193B6048009902CA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC7FD07E193B6048009902CA /* supermercaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "supermercaTests-Info.plist"; sourceTree = "<group>"; };
+		FC7FD080193B6048009902CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC7FD082193B6048009902CA /* supermercaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = supermercaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC7FD051193B6048009902CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7FD05A193B6048009902CA /* CoreGraphics.framework in Frameworks */,
+				FC7FD05C193B6048009902CA /* UIKit.framework in Frameworks */,
+				FC7FD058193B6048009902CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7FD072193B6048009902CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7FD077193B6048009902CA /* XCTest.framework in Frameworks */,
+				FC7FD079193B6048009902CA /* UIKit.framework in Frameworks */,
+				FC7FD078193B6048009902CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC7FD04B193B6048009902CA = {
+			isa = PBXGroup;
+			children = (
+				FC7FD05D193B6048009902CA /* supermerca */,
+				FC7FD07C193B6048009902CA /* supermercaTests */,
+				FC7FD056193B6048009902CA /* Frameworks */,
+				FC7FD055193B6048009902CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC7FD055193B6048009902CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC7FD054193B6048009902CA /* supermerca.app */,
+				FC7FD075193B6048009902CA /* supermercaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC7FD056193B6048009902CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC7FD057193B6048009902CA /* Foundation.framework */,
+				FC7FD059193B6048009902CA /* CoreGraphics.framework */,
+				FC7FD05B193B6048009902CA /* UIKit.framework */,
+				FC7FD076193B6048009902CA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC7FD05D193B6048009902CA /* supermerca */ = {
+			isa = PBXGroup;
+			children = (
+				FC7FD066193B6048009902CA /* supermercacomAppDelegate.h */,
+				FC7FD067193B6048009902CA /* supermercacomAppDelegate.m */,
+				FC7FD069193B6048009902CA /* Main.storyboard */,
+				FC7FD06C193B6048009902CA /* supermercacomViewController.h */,
+				FC7FD06D193B6048009902CA /* supermercacomViewController.m */,
+				FC7FD06F193B6048009902CA /* Images.xcassets */,
+				FC7FD05E193B6048009902CA /* Supporting Files */,
+			);
+			path = supermerca;
+			sourceTree = "<group>";
+		};
+		FC7FD05E193B6048009902CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC7FD05F193B6048009902CA /* supermerca-Info.plist */,
+				FC7FD060193B6048009902CA /* InfoPlist.strings */,
+				FC7FD063193B6048009902CA /* main.m */,
+				FC7FD065193B6048009902CA /* supermerca-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC7FD07C193B6048009902CA /* supermercaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC7FD082193B6048009902CA /* supermercaTests.m */,
+				FC7FD07D193B6048009902CA /* Supporting Files */,
+			);
+			path = supermercaTests;
+			sourceTree = "<group>";
+		};
+		FC7FD07D193B6048009902CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC7FD07E193B6048009902CA /* supermercaTests-Info.plist */,
+				FC7FD07F193B6048009902CA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC7FD053193B6048009902CA /* supermerca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7FD086193B6048009902CA /* Build configuration list for PBXNativeTarget "supermerca" */;
+			buildPhases = (
+				FC7FD050193B6048009902CA /* Sources */,
+				FC7FD051193B6048009902CA /* Frameworks */,
+				FC7FD052193B6048009902CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = supermerca;
+			productName = supermerca;
+			productReference = FC7FD054193B6048009902CA /* supermerca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC7FD074193B6048009902CA /* supermercaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7FD089193B6048009902CA /* Build configuration list for PBXNativeTarget "supermercaTests" */;
+			buildPhases = (
+				FC7FD071193B6048009902CA /* Sources */,
+				FC7FD072193B6048009902CA /* Frameworks */,
+				FC7FD073193B6048009902CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC7FD07B193B6048009902CA /* PBXTargetDependency */,
+			);
+			name = supermercaTests;
+			productName = supermercaTests;
+			productReference = FC7FD075193B6048009902CA /* supermercaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC7FD04C193B6048009902CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = supermercacom;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = azarateo;
+				TargetAttributes = {
+					FC7FD074193B6048009902CA = {
+						TestTargetID = FC7FD053193B6048009902CA;
+					};
+				};
+			};
+			buildConfigurationList = FC7FD04F193B6048009902CA /* Build configuration list for PBXProject "supermerca" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC7FD04B193B6048009902CA;
+			productRefGroup = FC7FD055193B6048009902CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC7FD053193B6048009902CA /* supermerca */,
+				FC7FD074193B6048009902CA /* supermercaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC7FD052193B6048009902CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7FD070193B6048009902CA /* Images.xcassets in Resources */,
+				FC7FD062193B6048009902CA /* InfoPlist.strings in Resources */,
+				FC7FD06B193B6048009902CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7FD073193B6048009902CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7FD081193B6048009902CA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC7FD050193B6048009902CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7FD064193B6048009902CA /* main.m in Sources */,
+				FC7FD06E193B6048009902CA /* supermercacomViewController.m in Sources */,
+				FC7FD068193B6048009902CA /* supermercacomAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7FD071193B6048009902CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7FD083193B6048009902CA /* supermercaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC7FD07B193B6048009902CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC7FD053193B6048009902CA /* supermerca */;
+			targetProxy = FC7FD07A193B6048009902CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC7FD060193B6048009902CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7FD061193B6048009902CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC7FD069193B6048009902CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7FD06A193B6048009902CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC7FD07F193B6048009902CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7FD080193B6048009902CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC7FD084193B6048009902CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC7FD085193B6048009902CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC7FD087193B6048009902CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "supermerca/supermerca-Prefix.pch";
+				INFOPLIST_FILE = "supermerca/supermerca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC7FD088193B6048009902CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "supermerca/supermerca-Prefix.pch";
+				INFOPLIST_FILE = "supermerca/supermerca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC7FD08A193B6048009902CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/supermerca.app/supermerca";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "supermerca/supermerca-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "supermercaTests/supermercaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC7FD08B193B6048009902CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/supermerca.app/supermerca";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "supermerca/supermerca-Prefix.pch";
+				INFOPLIST_FILE = "supermercaTests/supermercaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC7FD04F193B6048009902CA /* Build configuration list for PBXProject "supermerca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7FD084193B6048009902CA /* Debug */,
+				FC7FD085193B6048009902CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7FD086193B6048009902CA /* Build configuration list for PBXNativeTarget "supermerca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7FD087193B6048009902CA /* Debug */,
+				FC7FD088193B6048009902CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC7FD089193B6048009902CA /* Build configuration list for PBXNativeTarget "supermercaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7FD08A193B6048009902CA /* Debug */,
+				FC7FD08B193B6048009902CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC7FD04C193B6048009902CA /* Project object */;
+}
