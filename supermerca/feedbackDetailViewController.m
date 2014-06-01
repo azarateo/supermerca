@@ -16,8 +16,6 @@
 
 @synthesize nombre;
 @synthesize apellido;
-@synthesize direccion;
-@synthesize local;
 @synthesize telefono;
 @synthesize celular;
 @synthesize califclientes;
@@ -40,7 +38,7 @@
 
 -(void) actualizarUI{
     self.labelNombre.text = [NSString stringWithFormat:@"%@ %@",nombre,apellido];
-    self.labelDirecionLocal.text = [NSString stringWithFormat:@"%@ - %@",direccion,local];
+ 
     self.labelTelefonos.text = [NSString stringWithFormat:@"%@,%@",telefono,celular];
     self.labelCalifClientes.text = [NSString stringWithFormat:@"%@",califclientes];
     self.labelCalifTrans.text = [NSString stringWithFormat:@"%@",califtrans];

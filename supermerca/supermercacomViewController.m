@@ -7,6 +7,8 @@
 //
 
 #import "supermercacomViewController.h"
+#import <Parse/Parse.h>
+
 
 @interface supermercacomViewController ()
 
@@ -17,6 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    PFInstallation *currentInstallation = [PFInstallation currentInstallation];
+    [currentInstallation addUniqueObject:@"collectionists" forKey:@"channels"];
+    [currentInstallation saveInBackground];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

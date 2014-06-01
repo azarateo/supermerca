@@ -38,7 +38,6 @@
 		FC7FD0AA193B63D7009902CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FD0A9193B63D7009902CA /* libsqlite3.dylib */; };
 		FC7FD0AC193B63DE009902CA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FD0AB193B63DE009902CA /* CoreLocation.framework */; };
 		FC7FD0AE193B63EF009902CA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FD0AD193B63EF009902CA /* CFNetwork.framework */; };
-		FC7FD0B0193B640D009902CA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FD0AF193B640D009902CA /* Parse.framework */; };
 		FC7FD0B2193B641A009902CA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FD0B1193B641A009902CA /* AudioToolbox.framework */; };
 		FC7FD0B5193B649C009902CA /* productsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7FD0B4193B649C009902CA /* productsTableViewController.m */; };
 		FC7FD0D1193B67D1009902CA /* Inventario.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0CE193B67D1009902CA /* Inventario.png */; };
@@ -46,20 +45,10 @@
 		FC7FD0D3193B67D1009902CA /* Transportador.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0D0193B67D1009902CA /* Transportador.png */; };
 		FC7FD0E2193B7361009902CA /* feedbackDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7FD0DF193B7361009902CA /* feedbackDetailViewController.m */; };
 		FC7FD0E3193B7361009902CA /* feedbackTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7FD0E1193B7361009902CA /* feedbackTableViewController.m */; };
-		FC7FD0F3193B74F8009902CA /* 2-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0E5193B74F8009902CA /* 2-60x60.png */; };
-		FC7FD0F4193B74F8009902CA /* 2-76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0E6193B74F8009902CA /* 2-76x76.png */; };
-		FC7FD0F5193B74F8009902CA /* 2-80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0E7193B74F8009902CA /* 2-80x80.png */; };
-		FC7FD0F6193B74F8009902CA /* 2.-29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0E8193B74F8009902CA /* 2.-29x29.png */; };
-		FC7FD0F7193B74F8009902CA /* 2.-40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0E9193B74F8009902CA /* 2.-40x40.png */; };
-		FC7FD0F8193B74F8009902CA /* 2.-58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0EA193B74F8009902CA /* 2.-58x58.png */; };
-		FC7FD0F9193B74F8009902CA /* 2.-60X60.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0EB193B74F8009902CA /* 2.-60X60.png */; };
-		FC7FD0FA193B74F8009902CA /* 2.-76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0EC193B74F8009902CA /* 2.-76x76.png */; };
-		FC7FD0FB193B74F8009902CA /* 2.-80X80.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0ED193B74F8009902CA /* 2.-80X80.png */; };
-		FC7FD0FC193B74F8009902CA /* 2.-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0EE193B74F8009902CA /* 2.-120x120.png */; };
-		FC7FD0FD193B74F8009902CA /* 2.-152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0EF193B74F8009902CA /* 2.-152x152.png */; };
-		FC7FD0FE193B74F8009902CA /* 2.29X29.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0F0193B74F8009902CA /* 2.29X29.png */; };
-		FC7FD0FF193B74F8009902CA /* 2.120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0F1193B74F8009902CA /* 2.120x120.png */; };
-		FC7FD100193B74F8009902CA /* 2.152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7FD0F2193B74F8009902CA /* 2.152x152.png */; };
+		FCEB13EC193B76DC0018CCE6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEB13EB193B76DC0018CCE6 /* Parse.framework */; };
+		FCEB13EE193B7C750018CCE6 /* 2.-58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = FCEB13ED193B7C750018CCE6 /* 2.-58x58.png */; };
+		FCEB13F0193B7C7C0018CCE6 /* 2-80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = FCEB13EF193B7C7C0018CCE6 /* 2-80x80.png */; };
+		FCEB13F2193B7C850018CCE6 /* 2.-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = FCEB13F1193B7C850018CCE6 /* 2.-120x120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,20 +110,10 @@
 		FC7FD0DF193B7361009902CA /* feedbackDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedbackDetailViewController.m; sourceTree = "<group>"; };
 		FC7FD0E0193B7361009902CA /* feedbackTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedbackTableViewController.h; sourceTree = "<group>"; };
 		FC7FD0E1193B7361009902CA /* feedbackTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedbackTableViewController.m; sourceTree = "<group>"; };
-		FC7FD0E5193B74F8009902CA /* 2-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2-60x60.png"; path = "../../../../../Volumes/NYDIA_MARIA/SuperMerca/Iconos de diferentes dimensiones/2-60x60.png"; sourceTree = "<group>"; };
-		FC7FD0E6193B74F8009902CA /* 2-76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2-76x76.png"; path = "../../../../../Volumes/NYDIA_MARIA/SuperMerca/Iconos de diferentes dimensiones/2-76x76.png"; sourceTree = "<group>"; };
-		FC7FD0E7193B74F8009902CA /* 2-80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2-80x80.png"; path = "../../../../../Volumes/NYDIA_MARIA/SuperMerca/Iconos de diferentes dimensiones/2-80x80.png"; sourceTree = "<group>"; };
-		FC7FD0E8193B74F8009902CA /* 2.-29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2.-29x29.png"; path = "../../../../../Volumes/NYDIA_MARIA/SuperMerca/Iconos de diferentes dimensiones/2.-29x29.png"; sourceTree = "<group>"; };
-		FC7FD0E9193B74F8009902CA /* 2.-40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2.-40x40.png"; path = "../../../../../Volumes/NYDIA_MARIA/SuperMerca/Iconos de diferentes dimensiones/2.-40x40.png"; sourceTree = "<group>"; };
-		FC7FD0EA193B74F8009902CA /* 2.-58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2.-58x58.png"; path = "../../../../../Volumes/NYDIA_MARIA/SuperMerca/Iconos de diferentes dimensiones/2.-58x58.png"; sourceTree = "<group>"; };
-		FC7FD0EB193B74F8009902CA /* 2.-60X60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2.-60X60.png"; path = "../../../../../Volumes/NYDIA_MARIA/SuperMerca/Iconos de diferentes dimensiones/2.-60X60.png"; sourceTree = "<group>"; };
-		FC7FD0EC193B74F8009902CA /* 2.-76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2.-76x76.png"; path = "../../../../../Volumes/NYDIA_MARIA/SuperMerca/Iconos de diferentes dimensiones/2.-76x76.png"; sourceTree = "<group>"; };
-		FC7FD0ED193B74F8009902CA /* 2.-80X80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2.-80X80.png"; path = "../../../../../Volumes/NYDIA_MARIA/SuperMerca/Iconos de diferentes dimensiones/2.-80X80.png"; sourceTree = "<group>"; };
-		FC7FD0EE193B74F8009902CA /* 2.-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2.-120x120.png"; path = "../../../../../Volumes/NYDIA_MARIA/SuperMerca/Iconos de diferentes dimensiones/2.-120x120.png"; sourceTree = "<group>"; };
-		FC7FD0EF193B74F8009902CA /* 2.-152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2.-152x152.png"; path = "../../../../../Volumes/NYDIA_MARIA/SuperMerca/Iconos de diferentes dimensiones/2.-152x152.png"; sourceTree = "<group>"; };
-		FC7FD0F0193B74F8009902CA /* 2.29X29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.29X29.png; path = "../../../../../Volumes/NYDIA_MARIA/SuperMerca/Iconos de diferentes dimensiones/2.29X29.png"; sourceTree = "<group>"; };
-		FC7FD0F1193B74F8009902CA /* 2.120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.120x120.png; path = "../../../../../Volumes/NYDIA_MARIA/SuperMerca/Iconos de diferentes dimensiones/2.120x120.png"; sourceTree = "<group>"; };
-		FC7FD0F2193B74F8009902CA /* 2.152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.152x152.png; path = "../../../../../Volumes/NYDIA_MARIA/SuperMerca/Iconos de diferentes dimensiones/2.152x152.png"; sourceTree = "<group>"; };
+		FCEB13EB193B76DC0018CCE6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FCEB13ED193B7C750018CCE6 /* 2.-58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2.-58x58.png"; sourceTree = "<group>"; };
+		FCEB13EF193B7C7C0018CCE6 /* 2-80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-80x80.png"; sourceTree = "<group>"; };
+		FCEB13F1193B7C850018CCE6 /* 2.-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2.-120x120.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,10 +122,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC7FD0B2193B641A009902CA /* AudioToolbox.framework in Frameworks */,
-				FC7FD0B0193B640D009902CA /* Parse.framework in Frameworks */,
 				FC7FD0AE193B63EF009902CA /* CFNetwork.framework in Frameworks */,
 				FC7FD05A193B6048009902CA /* CoreGraphics.framework in Frameworks */,
 				FC7FD0AC193B63DE009902CA /* CoreLocation.framework in Frameworks */,
+				FCEB13EC193B76DC0018CCE6 /* Parse.framework in Frameworks */,
 				FC7FD0AA193B63D7009902CA /* libsqlite3.dylib in Frameworks */,
 				FC7FD0A8193B63D1009902CA /* libz.dylib in Frameworks */,
 				FC7FD0A6193B63C9009902CA /* MobileCoreServices.framework in Frameworks */,
@@ -195,6 +174,7 @@
 		FC7FD056193B6048009902CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FCEB13EB193B76DC0018CCE6 /* Parse.framework */,
 				FC7FD0B1193B641A009902CA /* AudioToolbox.framework */,
 				FC7FD0AF193B640D009902CA /* Parse.framework */,
 				FC7FD0AD193B63EF009902CA /* CFNetwork.framework */,
@@ -218,6 +198,7 @@
 		FC7FD05D193B6048009902CA /* supermerca */ = {
 			isa = PBXGroup;
 			children = (
+				FCEB13F9193B7DDB0018CCE6 /* profile */,
 				FC7FD0E4193B7368009902CA /* transport */,
 				FC7FD0DD193B724E009902CA /* home */,
 				FC7FD0DC193B7236009902CA /* app */,
@@ -262,24 +243,13 @@
 		FC7FD0DA193B710B009902CA /* images */ = {
 			isa = PBXGroup;
 			children = (
-				FC7FD0E5193B74F8009902CA /* 2-60x60.png */,
-				FC7FD0E6193B74F8009902CA /* 2-76x76.png */,
-				FC7FD0E7193B74F8009902CA /* 2-80x80.png */,
-				FC7FD0E8193B74F8009902CA /* 2.-29x29.png */,
-				FC7FD0E9193B74F8009902CA /* 2.-40x40.png */,
-				FC7FD0EA193B74F8009902CA /* 2.-58x58.png */,
-				FC7FD0EB193B74F8009902CA /* 2.-60X60.png */,
-				FC7FD0EC193B74F8009902CA /* 2.-76x76.png */,
-				FC7FD0ED193B74F8009902CA /* 2.-80X80.png */,
-				FC7FD0EE193B74F8009902CA /* 2.-120x120.png */,
-				FC7FD0EF193B74F8009902CA /* 2.-152x152.png */,
-				FC7FD0F0193B74F8009902CA /* 2.29X29.png */,
-				FC7FD0F1193B74F8009902CA /* 2.120x120.png */,
-				FC7FD0F2193B74F8009902CA /* 2.152x152.png */,
+				FCEB13ED193B7C750018CCE6 /* 2.-58x58.png */,
 				FC7FD0CE193B67D1009902CA /* Inventario.png */,
 				FC7FD0CF193B67D1009902CA /* Tendero.png */,
+				FCEB13EF193B7C7C0018CCE6 /* 2-80x80.png */,
 				FC7FD0D0193B67D1009902CA /* Transportador.png */,
 				FC7FD08C193B6144009902CA /* Calificar.png */,
+				FCEB13F1193B7C850018CCE6 /* 2.-120x120.png */,
 				FC7FD08D193B6144009902CA /* Comprar.png */,
 				FC7FD08E193B6144009902CA /* Georeferencia.png */,
 				FC7FD08F193B6144009902CA /* logo4.png */,
@@ -327,6 +297,13 @@
 				FC7FD0E1193B7361009902CA /* feedbackTableViewController.m */,
 			);
 			name = transport;
+			sourceTree = "<group>";
+		};
+		FCEB13F9193B7DDB0018CCE6 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,31 +383,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC7FD0FB193B74F8009902CA /* 2.-80X80.png in Resources */,
-				FC7FD0F5193B74F8009902CA /* 2-80x80.png in Resources */,
 				FC7FD0D1193B67D1009902CA /* Inventario.png in Resources */,
-				FC7FD0FD193B74F8009902CA /* 2.-152x152.png in Resources */,
-				FC7FD0FE193B74F8009902CA /* 2.29X29.png in Resources */,
 				FC7FD070193B6048009902CA /* Images.xcassets in Resources */,
-				FC7FD0F9193B74F8009902CA /* 2.-60X60.png in Resources */,
 				FC7FD097193B6144009902CA /* Producto.png in Resources */,
-				FC7FD0F4193B74F8009902CA /* 2-76x76.png in Resources */,
-				FC7FD0FA193B74F8009902CA /* 2.-76x76.png in Resources */,
+				FCEB13F0193B7C7C0018CCE6 /* 2-80x80.png in Resources */,
 				FC7FD062193B6048009902CA /* InfoPlist.strings in Resources */,
 				FC7FD092193B6144009902CA /* Calificar.png in Resources */,
-				FC7FD100193B74F8009902CA /* 2.152x152.png in Resources */,
-				FC7FD0FC193B74F8009902CA /* 2.-120x120.png in Resources */,
-				FC7FD0F3193B74F8009902CA /* 2-60x60.png in Resources */,
-				FC7FD0F7193B74F8009902CA /* 2.-40x40.png in Resources */,
+				FCEB13EE193B7C750018CCE6 /* 2.-58x58.png in Resources */,
 				FC7FD0D3193B67D1009902CA /* Transportador.png in Resources */,
 				FC7FD096193B6144009902CA /* logo6.png in Resources */,
-				FC7FD0F6193B74F8009902CA /* 2.-29x29.png in Resources */,
-				FC7FD0FF193B74F8009902CA /* 2.120x120.png in Resources */,
 				FC7FD093193B6144009902CA /* Comprar.png in Resources */,
 				FC7FD095193B6144009902CA /* logo4.png in Resources */,
 				FC7FD06B193B6048009902CA /* Main.storyboard in Resources */,
 				FC7FD094193B6144009902CA /* Georeferencia.png in Resources */,
-				FC7FD0F8193B74F8009902CA /* 2.-58x58.png in Resources */,
+				FCEB13F2193B7C850018CCE6 /* 2.-120x120.png in Resources */,
 				FC7FD0D2193B67D1009902CA /* Tendero.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +553,7 @@
 					"$(inherited)",
 					/Users/azarateo/Google,
 					Drive/PERSONAL/C4C/PARSE,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "supermerca/supermerca-Prefix.pch";
@@ -605,6 +572,7 @@
 					"$(inherited)",
 					/Users/azarateo/Google,
 					Drive/PERSONAL/C4C/PARSE,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "supermerca/supermerca-Prefix.pch";
@@ -673,6 +641,7 @@
 				FC7FD088193B6048009902CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC7FD089193B6048009902CA /* Build configuration list for PBXNativeTarget "supermercaTests" */ = {
 			isa = XCConfigurationList;
@@ -681,6 +650,7 @@
 				FC7FD08B193B6048009902CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

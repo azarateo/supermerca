@@ -28,25 +28,16 @@
 {
     [super viewDidLoad];
     
-    PFQuery *query = [PFQuery queryWithClassName:@"comerciante"];
+    PFQuery *query = [PFQuery queryWithClassName:@"transportador"];
     [query whereKey:@"nombre" notEqualTo:@""];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
             // The find succeeded.
-            NSLog(@"Comerciantes encontrados %lu", (unsigned long)objects.count);
+            NSLog(@"Transportadores encontrados %lu", (unsigned long)objects.count);
             // Do something with the found objects
-            for (PFObject *object in objects) {
-                
-            }
             objetos = [NSMutableArray arrayWithArray:objects];
             NSLog(@"Número de objetos en arreglo objetos: %lu", (unsigned long)objetos.count);
-            
-            /*for (int i = 0; i < objetos.count; i++){
-                NSLog(@"Resultados: %@", [objetos objectAtIndex:i]);
-            }*/
-            
             [tabla reloadData];
-            
         } else {
             // Log details of the failure
             NSLog(@"Error: %@ %@", error, [error userInfo]);
@@ -84,11 +75,11 @@
     //NSString *nombre = [eldato objectForKey:@"nombre"];
     
     
-   // NSString *detalle = [NSString stringWithFormat:@"Calificaciones: Clientes: %@ Transportadores: %@",califclientes,califtrans];
+    NSString *detalle = [NSString stringWithFormat:@"Calificaciones: Clientes: %@ Transportadores: %@",califclientes,califtrans];
     NSString *nombrecom =  [NSString stringWithFormat:@" %@ %@",nombre,apellido];
     NSLog(@"Nombre: %@",nombrecom);
     [[celda textLabel] setText:nombrecom];
-    //celda.detailTextLabel.text = detalle;
+    celda.detailTextLabel.text = detalle;
     return celda;
     
 }
@@ -110,8 +101,8 @@
                     NSString *elnombre = [[objetos objectAtIndex:indice.row] objectForKey:@"nombre"];
                     NSLog(@"elnombre ...%@",elnombre);
                     NSString *elapellido = [[objetos objectAtIndex:indice.row] objectForKey:@"apellido"];
-                    NSString *laDireccion = [[objetos objectAtIndex:indice.row] objectForKey:@"direccion"];
-                    NSString *ellocal = [[objetos objectAtIndex:indice.row] objectForKey:@"local"];
+                    NSString *laPlaca = [[objetos objectAtIndex:indice.row] objectForKey:@"placa"];
+                    NSString *laCapacidad = [[objetos objectAtIndex:indice.row] objectForKey:@"capacidad"];
                     NSString *eltelefono = [[objetos objectAtIndex:indice.row] objectForKey:@"telefono"];
                     NSString *elcelular = [[objetos objectAtIndex:indice.row] objectForKey:@"celular"];
                     NSString *laCalifClientes = [[objetos objectAtIndex:indice.row] objectForKey:@"califclientes"];
@@ -120,7 +111,7 @@
                     
                     //Configurar la vista de detalle
                     feedbackDetailViewController *vistaDestino = segue.destinationViewController;
-                    [self configuraVista:vistaDestino conNombre:elnombre apellido:elapellido direccion:laDireccion local:ellocal telefono:eltelefono celular:elcelular califclientes:laCalifClientes califtrans:laCalifTrans];
+                    [self configuraVista:vistaDestino conNombre:elnombre apellido:elapellido placa:laPlaca capacidad:laCapacidad telefono:eltelefono celular:elcelular califclientes:laCalifClientes califtrans:laCalifTrans];
                 }
             }
         }
@@ -132,8 +123,8 @@
 -(void)configuraVista:(feedbackDetailViewController *)vista
       conNombre:(NSString *)elNombre
              apellido:(NSString *)elApellido
-         direccion:(NSString *)laDireccion
-             local:(NSString *)elLocal
+         placa:(NSString *)laPlaca
+             capacidad:(NSString *)laCapacidad
                telefono:(NSString *)elTelefono
                 celular:(NSString *)elCelular
               califclientes:(NSString *)laCalifClientes
@@ -143,8 +134,8 @@
     
     vista.nombre = elNombre;
     vista.apellido = elApellido;
-    vista.direccion = laDireccion;
-    vista.local = elLocal;
+    vista.placa = laPlaca;
+    vista.capacidad = laCapacidad;
     vista.telefono = elTelefono;
     vista.celular = elCelular;
     vista.califclientes = laCalifClientes;

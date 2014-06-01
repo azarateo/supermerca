@@ -11,10 +11,10 @@
 @interface feedbackDetailViewController : UIViewController
 @property (strong, nonatomic) NSString *nombre;
 @property (strong, nonatomic) NSString *apellido;
-@property (strong, nonatomic) NSString *direccion;
-@property (strong, nonatomic) NSString *local;
 @property (strong, nonatomic) NSString *telefono;
 @property (strong, nonatomic) NSString *celular;
+@property (strong, nonatomic) NSString *placa;
+@property (strong, nonatomic) NSString *capacidad;
 @property (strong, nonatomic) NSString *califclientes;
 @property (strong, nonatomic) NSString *califtrans;
 

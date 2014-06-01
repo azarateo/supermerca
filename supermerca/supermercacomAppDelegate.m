@@ -7,12 +7,26 @@
 //
 
 #import "supermercacomAppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation supermercacomAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    
+    [Parse setApplicationId:@"DlF0vdgyR3NVWG0ljb7eDWNCwYQC1a7HDrJmgxVZ"
+                  clientKey:@"JogotHh8oYf8B0KLHPQEYgRIzye6fBfQsaBrRqL1"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    [application registerForRemoteNotificationTypes:
+     UIRemoteNotificationTypeBadge|
+     UIRemoteNotificationTypeAlert|
+     UIRemoteNotificationTypeSound];
+
+    
+    
     return YES;
 }
 							
